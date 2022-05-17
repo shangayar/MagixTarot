@@ -11,5 +11,4 @@ const Card = ({cliente}) => {
     </div>
   )
 }
-
 export default Card
