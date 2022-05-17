@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import {useState} from 'react';
+import FormUsuario from './components/FormUsuario';
+import Header from './components/Header';
+import Card from './components/Card';
 
 function App() {
+
+  const [cliente, setCliente] = useState({});
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container mx-auto mt-20">
+      <Header/>
+      <FormUsuario
+        cliente = {cliente}
+        setCliente = {setCliente}
+      />
+      <Card
+        cliente = {cliente}
+      />
     </div>
   );
 }
