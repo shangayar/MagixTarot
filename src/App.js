@@ -6,19 +6,23 @@ import Card from './components/Card';
 
 function App() {
 
-  const [cliente, setCliente] = useState({});
+  const [ cliente , setCliente ] = useState({});
+
+  const [ sorteo , setSorteo ] = useState({})
 
 
   return (
     <div className="container mx-auto mt-20">
-      <Header/>
-      <FormUsuario
-        cliente = {cliente}
-        setCliente = {setCliente}
-      />
-      <Card
-        cliente = {cliente}
-      />
+      <Header />
+      <div className="mt-12 md:flex">
+        <FormUsuario
+          cliente={cliente}
+          setCliente={setCliente}
+          sorteo={sorteo}
+          setSorteo={setSorteo}
+        />
+         <Card cliente={cliente} sorteo={sorteo} />
+      </div>
     </div>
   );
 }

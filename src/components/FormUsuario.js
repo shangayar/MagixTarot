@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 import Error from './Error';
 
-function FormUsuario({cliente , setCliente}) {
+function FormUsuario({cliente , setCliente , sorteo , setSorteo}) {
 
     const [nombre , setNombre] = useState("");
     const [edad , setEdad ] = useState("");
@@ -10,11 +10,20 @@ function FormUsuario({cliente , setCliente}) {
     const [fecha , setFecha ] = useState("");
     const [error, setError] = useState(false);
 
+const tirarCartas = () =>{
+  let carta = {
+    carta1: Math.floor(Math.random()*77),
+    carta2: Math.floor(Math.random()*77),
+    carta3: Math.floor(Math.random()*77)
+  };
+  return carta;
+}  
+
+
 const handleSubmit = (e) => {
     e.preventDefault();
 
     if([nombre, edad, genero, fecha].includes('')){
-        // console.log('Hay almenos un campo vacío')
         setError(true);
         return;
     }
@@ -27,6 +36,9 @@ const handleSubmit = (e) => {
     setEdad('');
     setGenero('');
     setFecha('');
+
+    //Realizo sorteo de cartas
+    setSorteo(tirarCartas());
 }
 
   return (

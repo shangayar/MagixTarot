@@ -1,23 +1,23 @@
 [
     {
       "nome": "Aries",
-      "caracteristica": "Impulsivo, o ariano nao pensa muito sobre seus atos. E aquele que primeiro age, depois reflete.Agitado, precisa de muita atividade para gastar a energia, senao pode ficar agressivo e explosivo.",
+      "caracteristica": "Impulsivo, Aries no piensa mucho en sus acciones. Es quien primero actúa, luego reflexiona, agitado, necesita mucha actividad para gastar energía, de lo contrario puede volverse agresivo y explosivo.",
       "periodo": [
         "21/03",
         "20/04"
       ]
     },
     {
-      "nome": "Touro",
-      "caracteristica": "Teimoso, o taurino e determinado e protetor. Precisa de seguranca e estabilidade para ser feliz,e conquista isso com muito trabalho e concentracao. Carinhoso, o taurino pode ser ciumento com quem ama.",
+      "nome": "Tauro",
+      "caracteristica": "Obstinado, el Tauro es decidido y protector. Necesitas seguridad y estabilidad para ser feliz, y eso lo logras con trabajo duro y concentración. Cariñoso, Tauro puede estar celoso de sus seres queridos.",
       "periodo": [
         "21/04",
         "21/05"
       ]
     },
     {
-      "nome": "Gemeos",
-      "caracteristica": "Espontaneo e um pouco instavel, o geminiano e uma verdadeira caixinha de surpresas. Como e volatil,muitas vezes nem mesmo o geminiano se entende, mas o importante e que ele esta sempre de bom humor e em busca de aventuras.",
+      "nome": "Gemenis",
+      "caracteristica": "Espontáneo y un poco inestable, el Géminis es una verdadera caja de sorpresas. Como es volátil, muchas veces ni siquiera el hombre Géminis se entiende, pero lo importante es que siempre está de buen humor y en busca de aventuras.",
       "periodo": [
         "22/05",
         "21/06"
@@ -25,23 +25,23 @@
     },
     {
       "nome": "Cancer",
-      "caracteristica": "Familia e a palavra-chave para o canceriano. Tranquilo e emotivo, gosta de ficar em casa, fazerprogramas com quem ama e curtir momentos com os parentes. Curioso, faz amizade com facilidade, mas pode ser um pouco sensivel.",
+      "caracteristica": "Familia y la palabra clave para Cáncer. Tranquilo y emotivo, le gusta quedarse en casa, hacer programas con sus seres queridos y disfrutar momentos con sus familiares. Curioso, hace amigos fácilmente, pero puede ser un poco sensible.",
       "periodo": [
         "21/06",
         "23/07"
       ]
     },
     {
-      "nome": "Leao",
-      "caracteristica": "Este e signo que veio para brilhar. O leonino gosta de chamar a atencao e ser o centro do mundo,mas tambem e muito amavel e leal. Simpatico e comunicativo, o nativo de leao pode ser um pouco ciumento e inseguro.",
+      "nome": "Leo",
+      "caracteristica": "Esta es la señal que vino a brillar. A Leo le gusta llamar la atención y ser el centro del mundo, pero también son muy amables y leales. Simpáticos y comunicativos, los Leo pueden ser un poco celosos e inseguros.",
       "periodo": [
         "24/07",
         "23/08"
       ]
     },
     {
-      "nome": "Virgem",
-      "caracteristica": "Perspicaz e inteligente, o virginiano esta acostumado com o sucesso, por isso se cobra muito assim como aos demais. Por isso, pode ser um pouco rigido e magoar quem ama. Timido, prefere programastranquilos a grandes eventos.",
+      "nome": "Virgo",
+      "caracteristica": "Perspicaz e inteligente, el Virgo está acostumbrado al éxito, por eso cobra mucho como los demás. Entonces puede ser un poco rígido y lastimar a los que amas. Tímido, prefiere los programas tranquilos a los grandes eventos.",
       "periodo": [
         "24/08",
         "23/09"
@@ -49,15 +49,15 @@
     },
     {
       "nome": "Libra",
-      "caracteristica": "O libriano gosta do que e belo e harmonioso. Nao gosta de conflitos e por isso tentaser imparcial em debates e brigas. Indeciso, pode demorar muito para escolher coisas simples, como oque comer ou vestir. Bom gosto define este signo.",
+      "caracteristica": "A los Libra les gusta lo que es bello y armonioso. No le gustan los conflictos y por eso trata de ser imparcial en los debates y peleas. Indeciso, puede llevar mucho tiempo elegir cosas simples como qué comer o vestir. El buen gusto define a este signo.",
       "periodo": [
         "24/09",
         "23/10"
       ]
     },
     {
-      "nome": "Escorpiao",
-      "caracteristica": "Determinado, o escorpiano vai ate o fim para conquistar os seus objetivos. Sensual e romantico,gosta de estar em relacionamentos, mas pode ser desconfiado enquanto nao se sentir seguro com a pessoa.",
+      "nome": "Escorpio",
+      "caracteristica": "Decidido, Escorpio hará todo lo posible para lograr sus objetivos. Sensual y romántico, le gusta tener relaciones, pero puede ser desconfiado mientras no se sienta seguro con la persona.",
       "periodo": [
         "24/10",
         "22/11"
@@ -65,7 +65,7 @@
     },
     {
       "nome": "Sagitario",
-      "caracteristica": "Um signo de bem com a vida, que esta sempre em busca de acao e que vive rodeado de amigos. Este e o signo de sagitario, que e sonhador e adora conhecer pessoas e lugares novos.",
+      "caracteristica": "Un signo de buena vida, que siempre está buscando acción y que vive rodeado de amigos. Este es el signo de Sagitario, que es soñador y le encanta conocer gente y lugares nuevos.",
       "periodo": [
         "23/11",
         "21/12"
@@ -73,23 +73,23 @@
     },
     {
       "nome": "Capricornio",
-      "caracteristica": "Trabalhador, timido e educado, o capricornio pode passar uma imagem de fechado e ate mesmoantipatico, mas e que ele e precisa confiar em quem esta ao seu lado para se abrir totalmente. Com paciencia,ele se mostra um amigo leal e um companheiro fiel.",
+      "caracteristica": "Trabajador, tímido y educado, Capricornio puede parecer cerrado e incluso antipático, pero necesita confiar en quien esté a su lado para abrirse por completo. Con paciencia, demuestra ser un amigo leal y un fiel compañero.",
       "periodo": [
         "22/12",
         "20/01"
       ]
     },
     {
-      "nome": "Aquario",
-      "caracteristica": "Independente, o aquariano preza muito por sua liberdade. Gosta de viajar, sair econhecer pessoas novas. Tem uma mente aberta e gosta de tudo o que e inovador e moderno, desde roupas etecnologia, ate mesmo atitudes comportamentais.",
+      "nome": "Acuario",
+      "caracteristica": "Independiente, Acuario valora mucho su libertad. Le gusta viajar, salir y conocer gente nueva. Tiene una mente abierta y le gusta todo lo innovador y moderno, desde la ropa y la tecnología, hasta las actitudes conductuales.",
       "periodo": [
         "21/01",
         "19/02"
       ]
     },
     {
-      "nome": "Peixes",
-      "caracteristica": "Este e o signo mais romantico do zodiaco. Sonhador e carinhoso, ele esta semprepreocupado com o bem estar dos outros. Sensivel e carinhoso, acredita em contos de fadas e acha quetodos merecem um final feliz.",
+      "nome": "Piscis",
+      "caracteristica": "Este es el signo más romántico del zodiaco. Soñador y cariñoso, siempre está preocupado por el bienestar de los demás. Sensible y cariñoso, cree en los cuentos de hadas y piensa que todo el mundo merece un final feliz.",
       "periodo": [
         "20/02",
         "20/03"
