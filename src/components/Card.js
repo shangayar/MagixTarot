@@ -9,6 +9,8 @@ const Card = ({cliente , sorteo}) => {
     
     const personality = require('../APIs/Personality.json');
 
+    const cartasTarot = require.context('../Images');
+
     let formato = "";
 
     const determinaSigno = (personality) =>{
@@ -85,7 +87,7 @@ const Card = ({cliente , sorteo}) => {
     }
     
   return (
-    <div className="mx-5 my-10 bg-white shadow-md px-5 px-10 rounded-xl md:h-screen overflow-y-scroll">
+    <div className="mx-5 my-10 bg-white shadow-md px-10 rounded-xl md:h-screen overflow-y-scroll">
       <p className="font-bold mb-3 text-gray-700 uppercase">
         {" "}
         Resultados de tu destino {""}
@@ -106,36 +108,57 @@ const Card = ({cliente , sorteo}) => {
         </h2>
       </div>
       <div className="py-3">
-        <h3 className="font-bold" >
-          Carta 1:
-        </h3>
+        <h3 className="font-bold">Carta 1:</h3>
+        <div className="flex flex-row justify-center py-5 shadow-md">
+          <img
+            src={cartasTarot(`./${tuCarta(carta1)[3]}`)}
+            alt="Carta Tarot"
+            width="200vh"
+          />
+        </div>
         <p className="py-2">
-          <span className="font-bold">{tuCarta(carta1)[0]}</span> : {tuCarta(carta1)[1]}
+          <span className="font-bold">{tuCarta(carta1)[0]}</span> :{" "}
+          {tuCarta(carta1)[1]}
         </p>
         <p>
-        <span className="font-bold">Interpretación:</span> {tuCarta(carta1)[4]}
+          <span className="font-bold">Interpretación:</span>{" "}
+          {tuCarta(carta1)[4]}
         </p>
       </div>
       <div className="py-3">
-        <h3 className="font-bold" >
-          Carta 2:
-        </h3>
+        <h3 className="font-bold">Carta 2:</h3>
+        <div className="flex flex-row justify-center py-5 shadow-md">
+          <img
+            src={cartasTarot(`./${tuCarta(carta2)[3]}`)}
+            alt="Carta Tarot"
+            width="200vh"
+          />
+        </div>
         <p className="py-2">
-        <span className="font-bold">{tuCarta(carta2)[0]}</span> : {tuCarta(carta2)[1]}
+          <span className="font-bold">{tuCarta(carta2)[0]}</span> :{" "}
+          {tuCarta(carta2)[1]}
         </p>
         <p>
-        <span className="font-bold">Interpretación:</span> {tuCarta(carta2)[4]}
+          <span className="font-bold">Interpretación:</span>{" "}
+          {tuCarta(carta2)[4]}
         </p>
       </div>
       <div className="py-3">
-        <h3 className="font-bold" >
-          Carta 3:
-        </h3>
+        <h3 className="font-bold">Carta 3:</h3>
+        <div className="flex flex-row justify-center py-5 shadow-md">
+          <img
+            src={cartasTarot(`./${tuCarta(carta3)[3]}`)}
+            alt="Carta Tarot"
+            width="200vh"
+          />
+        </div>
         <p className="py-2">
-        <span className="font-bold">{tuCarta(carta3)[0]}</span> : {tuCarta(carta3)[1]}
+          <span className="font-bold">{tuCarta(carta3)[0]}</span> :{" "}
+          {tuCarta(carta3)[1]}
         </p>
         <p>
-        <span className="font-bold">Interpretación:</span> {tuCarta(carta3)[4]}
+          <span className="font-bold">Interpretación:</span>{" "}
+          {tuCarta(carta3)[4]}
         </p>
       </div>
     </div>
