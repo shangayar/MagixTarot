@@ -12,14 +12,14 @@
       "caracteristica": "Obstinado, el Tauro es decidido y protector. Necesitas seguridad y estabilidad para ser feliz, y eso lo logras con trabajo duro y concentración. Cariñoso, Tauro puede estar celoso de sus seres queridos.",
       "periodo": [
         "21/04",
-        "21/05"
+        "20/05"
       ]
     },
     {
       "nome": "Gemenis",
       "caracteristica": "Espontáneo y un poco inestable, el Géminis es una verdadera caja de sorpresas. Como es volátil, muchas veces ni siquiera el hombre Géminis se entiende, pero lo importante es que siempre está de buen humor y en busca de aventuras.",
       "periodo": [
-        "22/05",
+        "21/05",
         "21/06"
       ]
     },
@@ -27,15 +27,15 @@
       "nome": "Cancer",
       "caracteristica": "Familia y la palabra clave para Cáncer. Tranquilo y emotivo, le gusta quedarse en casa, hacer programas con sus seres queridos y disfrutar momentos con sus familiares. Curioso, hace amigos fácilmente, pero puede ser un poco sensible.",
       "periodo": [
-        "21/06",
-        "23/07"
+        "22/06",
+        "21/07"
       ]
     },
     {
       "nome": "Leo",
       "caracteristica": "Esta es la señal que vino a brillar. A Leo le gusta llamar la atención y ser el centro del mundo, pero también son muy amables y leales. Simpáticos y comunicativos, los Leo pueden ser un poco celosos e inseguros.",
       "periodo": [
-        "24/07",
+        "22/07",
         "23/08"
       ]
     },
@@ -52,14 +52,14 @@
       "caracteristica": "A los Libra les gusta lo que es bello y armonioso. No le gustan los conflictos y por eso trata de ser imparcial en los debates y peleas. Indeciso, puede llevar mucho tiempo elegir cosas simples como qué comer o vestir. El buen gusto define a este signo.",
       "periodo": [
         "24/09",
-        "23/10"
+        "22/10"
       ]
     },
     {
       "nome": "Escorpio",
       "caracteristica": "Decidido, Escorpio hará todo lo posible para lograr sus objetivos. Sensual y romántico, le gusta tener relaciones, pero puede ser desconfiado mientras no se sienta seguro con la persona.",
       "periodo": [
-        "24/10",
+        "23/10",
         "22/11"
       ]
     },
@@ -84,14 +84,14 @@
       "caracteristica": "Independiente, Acuario valora mucho su libertad. Le gusta viajar, salir y conocer gente nueva. Tiene una mente abierta y le gusta todo lo innovador y moderno, desde la ropa y la tecnología, hasta las actitudes conductuales.",
       "periodo": [
         "21/01",
-        "19/02"
+        "21/02"
       ]
     },
     {
       "nome": "Piscis",
       "caracteristica": "Este es el signo más romántico del zodiaco. Soñador y cariñoso, siempre está preocupado por el bienestar de los demás. Sensible y cariñoso, cree en los cuentos de hadas y piensa que todo el mundo merece un final feliz.",
       "periodo": [
-        "20/02",
+        "21/02",
         "20/03"
       ]
     }
