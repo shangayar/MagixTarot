@@ -3,8 +3,8 @@ import React from 'react'
 const Card = ({cliente , sorteo}) => {
 
     const {nombre, fecha} = cliente;
-    const {carta1, carta2, carta3} = sorteo;
-
+    const {carta1, carta2, carta3, estado1, estado2, estado3} = sorteo;
+    console.log(estado1,estado2,estado3);
     const tarotjson = require('../APIs/tarot.json');
     
     const personality = require('../APIs/Personality.json');
@@ -38,12 +38,13 @@ const Card = ({cliente , sorteo}) => {
       if(card === undefined){
         return ("Esperando datos")
       }else{
-        const {name, image, description, interpretation } = tarotjson[card];
+        const {name, image, description, interpretation, Invertida } = tarotjson[card];
       
         tarot[0] = name;
         tarot[1] = description;
         tarot[3] = image;
         tarot[4] = interpretation;
+        tarot[5] = Invertida;
   
         return tarot;
       }
@@ -110,56 +111,90 @@ const Card = ({cliente , sorteo}) => {
         </div>
         <div className="py-3">
           <h3 className="font-bold">Carta 1:</h3>
-          <div className="flex flex-row justify-center py-5 shadow-md">
-            <img
-              src={cartasTarot(`./${tuCarta(carta1)[3]}`)}
-              alt="Carta Tarot"
-              width="200vh"
-            />
-          </div>
+          {estado1 === 1 ? (
+            <div className="flex flex-row justify-center py-5 shadow-md">
+              <img
+                src={cartasTarot(`./${tuCarta(carta1)[3]}`)}
+                alt="Carta Tarot"
+                width="200vh"
+              />
+            </div>
+          ) : (
+            <div className="flex flex-row justify-center py-5 shadow-md rotate-180">
+              <img
+                src={cartasTarot(`./${tuCarta(carta1)[3]}`)}
+                alt="Carta Tarot"
+                width="200vh"
+              />
+            </div>
+          )}
+
           <p className="py-2">
             <span className="font-bold">{tuCarta(carta1)[0]}</span> :{" "}
             {tuCarta(carta1)[1]}
           </p>
           <p>
             <span className="font-bold">Interpretación:</span>{" "}
-            {tuCarta(carta1)[4]}
+            {estado1 === 1 ? tuCarta(carta1)[4] : tuCarta(carta1)[5]}
+            {console.log(tuCarta(carta1)[5])}
+            {console.log(tuCarta(carta2)[5])}
+            {console.log(tuCarta(carta3)[5])}
           </p>
         </div>
         <div className="py-3">
           <h3 className="font-bold">Carta 2:</h3>
-          <div className="flex flex-row justify-center py-5 shadow-md">
-            <img
-              src={cartasTarot(`./${tuCarta(carta2)[3]}`)}
-              alt="Carta Tarot"
-              width="200vh"
-            />
-          </div>
+          {estado2 === 1 ? (
+            <div className="flex flex-row justify-center py-5 shadow-md">
+              <img
+                src={cartasTarot(`./${tuCarta(carta2)[3]}`)}
+                alt="Carta Tarot"
+                width="200vh"
+              />
+            </div>
+          ) : (
+            <div className="flex flex-row justify-center py-5 shadow-md rotate-180">
+              <img
+                src={cartasTarot(`./${tuCarta(carta2)[3]}`)}
+                alt="Carta Tarot"
+                width="200vh"
+              />
+            </div>
+          )}
           <p className="py-2">
             <span className="font-bold">{tuCarta(carta2)[0]}</span> :{" "}
             {tuCarta(carta2)[1]}
           </p>
           <p>
             <span className="font-bold">Interpretación:</span>{" "}
-            {tuCarta(carta2)[4]}
+            {estado2 === 1 ? tuCarta(carta2)[4] : tuCarta(carta2)[5]}
           </p>
         </div>
         <div className="py-3">
           <h3 className="font-bold">Carta 3:</h3>
-          <div className="flex flex-row justify-center py-5 shadow-md">
-            <img
-              src={cartasTarot(`./${tuCarta(carta3)[3]}`)}
-              alt="Carta Tarot"
-              width="200vh"
-            />
-          </div>
+          {estado3 === 1 ? (
+            <div className="flex flex-row justify-center py-5 shadow-md">
+              <img
+                src={cartasTarot(`./${tuCarta(carta3)[3]}`)}
+                alt="Carta Tarot"
+                width="200vh"
+              />
+            </div>
+          ) : (
+            <div className="flex flex-row justify-center py-5 shadow-md rotate-180">
+              <img
+                src={cartasTarot(`./${tuCarta(carta3)[3]}`)}
+                alt="Carta Tarot"
+                width="200vh"
+              />
+            </div>
+          )}
           <p className="py-2">
             <span className="font-bold">{tuCarta(carta3)[0]}</span> :{" "}
             {tuCarta(carta3)[1]}
           </p>
           <p>
             <span className="font-bold">Interpretación:</span>{" "}
-            {tuCarta(carta3)[4]}
+            {estado3 === 1 ? tuCarta(carta3)[4] : tuCarta(carta3)[5]}
           </p>
         </div>
       </div>

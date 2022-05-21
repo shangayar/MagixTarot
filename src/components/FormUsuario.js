@@ -13,8 +13,11 @@ function FormUsuario({cliente , setCliente , sorteo , setSorteo}) {
 const tirarCartas = () =>{
   let carta = {
     carta1: Math.floor(Math.random()*79),
+    estado1: Math.random()<0.5 ? 0 : 1,
     carta2: Math.floor(Math.random()*79),
-    carta3: Math.floor(Math.random()*79)
+    estado2: Math.random()<0.5 ? 0 : 1,
+    carta3: Math.floor(Math.random()*79),
+    estado3: Math.random()<0.5 ? 0 : 1
   };
   return carta;
 }  
