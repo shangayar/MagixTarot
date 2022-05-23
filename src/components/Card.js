@@ -75,7 +75,7 @@ const Card = ({cliente , sorteo}) => {
       diaFin = parseInt(diaFin);
       mesFin = parseInt(mesFin);
 
-      if ((diaCliente >= diaInicio || diaCliente <= diaFin)&&(mesCliente === mesInicio || mesCliente === mesFin)){
+      if ((diaCliente >= diaInicio && mesCliente === mesInicio)||(diaCliente<= diaFin && mesCliente===mesFin)){
         return true;
       }else{
         return false;
